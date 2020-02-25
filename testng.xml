@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/java/java_workspace/SeleniumTest/src/test/java/cn/leon/login/IoPropertiesTest.java">
+        <classes>
+            <class name="cn.leon.login.IoPropertiesTest">
+                <methods>
+                    <include name="propertiesRead"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
